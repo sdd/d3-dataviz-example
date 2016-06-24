@@ -1,0 +1,4 @@
+-r babel-polyfill
+-r jsdom-global/register
+-r babel-register
+-r ./test-init.js

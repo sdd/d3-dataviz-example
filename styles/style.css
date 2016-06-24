@@ -1,0 +1,83 @@
+.TimelineChart {
+    margin: 50px;
+    background-color: #F7F7F7;
+    padding: 20px;
+}
+
+.TimelineChart .rc-slider-handle {
+    position: absolute;
+    margin-left: -7px;
+    margin-top: -55px;
+    width: 8px;
+    height: 60px;
+    cursor: pointer;
+    border-radius: 1px;
+    border: solid 1px darkgrey;
+    background-color: lightgrey;
+    z-index: 2;
+    opacity: 0.6;
+}
+
+.TimelineChart .rc-slider-track {
+    position: absolute;
+    left: 0;
+    height: 60px;
+    border-radius: 0;
+    background-color: #abe2fb;
+    z-index: 1;
+    top: -55px;
+    opacity: 0.5;
+}
+
+
+.axis path, .axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+.x.axis path {
+    display: none;
+}
+
+.line {
+    fill: none;
+    stroke: steelblue;
+    stroke-width: 1.5px;
+}
+
+.TimelineChartZoom svg {
+    font: 10px sans-serif;
+}
+
+.TimelineChartZoom path.line {
+    fill: none;
+    stroke: #666;
+    stroke-width: 1.5px;
+}
+
+.TimelineChartZoom path.area {
+    fill: #e7e7e7;
+}
+
+.TimelineChartZoom .axis {
+    shape-rendering: crispEdges;
+}
+
+.TimelineChartZoom .x.axis line {
+    stroke: #fff;
+}
+
+.TimelineChartZoom .x.axis .minor {
+    stroke-opacity: .5;
+}
+
+.TimelineChartZoom .x.axis path {
+    display: none;
+}
+
+.TimelineChartZoom .y.axis line,
+.TimelineChartZoom .y.axis path {
+    fill: none;
+    stroke: #000;
+}
