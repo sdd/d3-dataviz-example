@@ -47,7 +47,7 @@
     "babel-register": "^6.9.0",
     "chai": "^3.5.0",
     "css-loader": "^0.23.1",
-    "d3": "^3.5.17",
+    "d3": "^7.0.0",
     "eslint": "^2.13.1",
     "html-webpack-plugin": "^2.21.0",
     "jsdom": "^20.0.0",
